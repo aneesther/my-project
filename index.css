@@ -1,0 +1,270 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+  body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 28px 64px; */
+}
+#panphotos {
+    font-family: 'inter' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size:24px;
+}
+.child {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 24px;
+    font-family: 'inter' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.overlay {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0.67) 0%, #FFFFFF 100%), url("./images/Danfo-bus.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.panphoto {
+  font-family: 'inter' sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  /* height: 40px; ; */
+  /* width: 644px; */
+  text-align: center;
+  color: #1E1E1E;
+}
+.source {
+  font-family: 'inter' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  padding: 0%;
+  margin: 0%;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #1E1E1E;
+}
+.learning {
+  font-family: 'inter' sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 0px;
+  color: #1E1E1E;
+}
+.text {
+  line-height: 24px;
+  padding: 0px;
+  margin: 0px;
+}
+
+input[type='search'] {
+  width: 312px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  height: 56px;
+  background: #ffff;
+  border: 1px solid #828282;
+  border-radius:8px;
+  padding:16px 16px;
+}
+
+input[type='search']::placeholder {
+  background: url('./images/Left\ Icon.svg');
+  color:#1e1e1e;
+  align-items: center;
+  background-repeat: no-repeat;
+  padding-left: 32px ;
+  background-size: 18px 18px;
+  font-weight: 200;
+}
+
+.MAIN {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+  padding: 8px 24px;
+  flex-direction: row;
+}
+
+.main-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.main-parent > div {
+  width: 310px;
+  border-radius: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.main-Aone {
+  height: 198px;
+  background-image: url(./images/landscape.png);
+}
+
+.main-Atwo {
+  height: 528px;
+  background-image: url(./images/waffles.png);
+}
+
+.main-Athree {
+  height: 310px;
+  background-image: url(./images/builing.png);
+}
+
+.main-Afour {
+  height: 528px;
+  background-image: url(./images/skyscraper.png);
+}
+
+.main-Afive {
+  height: 528px;
+  background-image: url(./images/butterfly.png);
+}
+
+.main-Asix {
+  height: 310px;
+  background-image: url(./images/city.png);
+}
+
+.main-Aseven {
+  height: 198px;
+  background-image: url(./images/wall.png);
+}
+
+.main-Bone {
+  height:310px ;
+  background-image: url(./images/apex.png);
+}
+
+.main-Btwo {
+  height: 310px;
+  background-image: url(./images/beacd.png);
+}
+
+.main-Bthree {
+  height: 528px;
+  background-image: url(./images/bluey.png);
+}
+
+.main-Bfour {
+  height: 310px;
+  background-image: url(./images/ship.png);
+}
+
+.main-Bfive {
+  height: 310px;
+  background-image: url(./images/two.png);
+}
+
+.main-Bsix {
+  height: 310px;
+  background-image: url(./images/Up.png);
+}
+
+.main-Bseven {
+  height: 528px;
+  background-image: url(./images/long.png);
+}
+
+.main-Cone {
+  height: 528px;
+  background-image: url(./images/old.png);
+}
+
+.main-Ctwo {
+  height: 198px;
+  background-image: url(./images/flora.png) ;
+}
+
+.main-Cthree {
+  height: 528px ;
+  background-image: url(./images/house.png);
+}
+
+.main-Cfour {
+  height: 310px;
+  background-image: url(./images/stripe.png) ;
+}
+
+.main-Cfive {
+  height: 528px;
+  background-image: url(./images/citadel.png);
+}
+
+.main-Csix {
+  height: 198px;
+  background-image: url(./images/tower.png);
+}
+
+.main-Cseven {
+  height: 310px;
+  background-image: url(./images/chandelia.png) ;
+}
+
+.main-Done {
+  height: 198px;
+  background-image: url(./images/celine.png);
+}
+
+.main-Dtwo {
+  height: 528px ;
+  background-image: url(./images/yellow.png);
+}
+
+.main-Dthree {
+  height:310px;
+  background-image: url(./images/pink.png);
+}
+
+.main-Dfour {
+  height:528px ;
+  background-image: url(./images/chef.png);
+}
+
+.main-Dfive {
+  height: 198px;
+  background-image: url(./images/car.png);
+}
+
+.main-Dsix {
+  height: 310px;
+  background-image: url(./images/ice.png);
+}
+
+.main-Dseven {
+  height:528px ;
+  background-image: url(./images/books.png);
+}
+
+@media screen and (min-width:480px) {
+nav{
+     padding: 16px 64px;
+      height: 88px;
+  }
+}
